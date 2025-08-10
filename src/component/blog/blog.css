@@ -1,0 +1,46 @@
+
+
+.text{
+    font-size: 16px !important;
+    font-weight: 400;
+    color: rgba(40, 41, 56, 0.698);
+  
+}
+
+.cd-h{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    color: rgba(40, 41, 56, 0.698);
+}
+
+.card-heading{
+    /* font-semibold! text-[#282938] leading-[36px]! */
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    line-height: 36px !important;
+    color: #282938;
+}
+
+.card{
+    border: none !important;
+}
+
+
+/* absolute top-[2px] right-[90px] */
+
+.icon-box{
+    font-size: 16px !important;
+    color: white !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+    position: relative !important;
+
+}
+
+.icon-box .icon{
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+
