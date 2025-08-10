@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Images from '../Images'
-import icon from '../../assets/Lineandicon.png'
+import icon from '../../assets/Line-icon.png'
 const Procces = () => {
   return (
 <section className='py-[128px]'>
