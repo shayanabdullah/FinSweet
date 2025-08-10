@@ -3,8 +3,8 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import Images from '../../component/Images'
 import Card from '../../assets/card.png'
-import CardTwo from '../../assets/CardTwo.png'
-import CardThree from '../../assets/CardThree.png'
+import CardTwo from '../../assets/Card-Two.png'
+import CardThree from '../../assets/Card-Three.png'
 import '../../component/project/project.css'
 
 const Project = () => {

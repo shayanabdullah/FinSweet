@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Images from '../../component/Images'
-import banner from'../../assets/aboutBanner.png'
+import banner from'../../assets/about-Banner.png'
 const About = () => {
     return (
         <section className='py-[128px]'>

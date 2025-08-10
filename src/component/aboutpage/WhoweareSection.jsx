@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import bg from '../../assets/secBg.png'
+import bg from '../../assets/sec-Bg.png'
 import Images from '../../component/Images'
 const WhoweareSection = () => {
     return (

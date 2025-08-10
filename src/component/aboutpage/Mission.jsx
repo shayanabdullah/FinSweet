@@ -1,8 +1,8 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Images from '../Images'
-import img1 from '../../assets/mission1.png'
-import img2 from '../../assets/mission2.png'
+import img1 from '../../assets/mission-1.png'
+import img2 from '../../assets/mission-2.png'
 const Mission = () => {
   return (
   <section className='py-[128px]'>

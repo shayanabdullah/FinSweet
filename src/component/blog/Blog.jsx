@@ -1,9 +1,9 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import BlogCard from './BlogCard'
-import BlogCard1 from '../../assets/BlogCard1.png'
-import BlogCard2 from '../../assets/BlogCard2.png'
-import BlogCard3 from '../../assets/BlogCard3.png'
+import BlogCard1 from '../../assets/Blog-Card-1.png'
+import BlogCard2 from '../../assets/Blog-Card-2.png'
+import BlogCard3 from '../../assets/Blog-Card-3.png'
 const Blog = () => {
   return (
  <section className='py-[128px]'>

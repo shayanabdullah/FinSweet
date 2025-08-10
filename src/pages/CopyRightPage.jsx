@@ -1,5 +1,5 @@
 import React from 'react'
-import CopyRight from '../assets/CopyRight'
+import CopyRight from '../component/Copy-Right'
 
 const CopyRightPage = () => {
   return (
