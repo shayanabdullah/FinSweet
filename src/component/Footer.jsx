@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import Images from './Images'
-import Logo from '../assets/Logo (1).png'
+import Logo from '../assets/Logo(1).png'
 import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 

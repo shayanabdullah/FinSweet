@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import  CLientPhoto from '../assets/Mask Group.png'
+import  CLientPhoto from '../assets/MaskGroup.png'
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 const Client = () => {
   return (

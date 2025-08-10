@@ -1,12 +1,12 @@
 import React from 'react'
 import { Container, Row , Col } from 'react-bootstrap'
 import Cards from './Cards'
-import icon1 from '../assets/icon (1).png'
-import icon2 from '../assets/icon (2).png'
-import icon3 from '../assets/icon (3).png'
-import icon4 from '../assets/icon (4).png'
-import icon5 from '../assets/icon (5).png'
-import icon6 from '../assets/icon (7).png'
+import icon1 from '../assets/icon(1).png'
+import icon2 from '../assets/icon(2).png'
+import icon3 from '../assets/icon(3).png'
+import icon4 from '../assets/icon(4).png'
+import icon5 from '../assets/icon(5).png'
+import icon6 from '../assets/icon(7).png'
 const Features = () => {
   return (
     <section className='py-[128px]'>

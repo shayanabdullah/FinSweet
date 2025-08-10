@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
 import Images from '../../component/Images'
-import Logo from '../../assets/logo (1).png'
+import Logo from '../../assets/logo(1).png'
 import Buttons from '../../component/Buttons'
 import '../../component/menu/menu.css'
 import { Link } from 'react-router-dom'
