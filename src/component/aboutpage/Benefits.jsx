@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Cards from '../../component/Cards'
-import icon1 from '../../assets/icon-7.png'
+import icon1 from '../../assets/iconseven.png'
 import icon2 from '../../assets/icon-3.png'
 import icon3 from '../../assets/icon-1.png'
 import logo from '../../assets/Logo-Section.png'
