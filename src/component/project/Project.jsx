@@ -5,7 +5,7 @@ import Images from '../../component/Images'
 import Card from '../../assets/Card.png'
 import CardTwo from '../../assets/Card-Two.png'
 import CardThree from '../../assets/Card-Three.png'
-import '../../component/project/project.css'
+import '../../component/project/Project.css'
 
 const Project = () => {
   return (
