@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const CopyRight = () => {
     return (
@@ -8,19 +9,41 @@ const CopyRight = () => {
                 <Row className='items-center!'>
                     <Col lg={3}>
                         <div className="copy">
-                            <h2 className='text-[16px]! font-medium! text-[#282938]'>Copyright 2025, Finsweet.com</h2>
+                            <h2 className='text-[16px]! font-medium! text-[#282938]'>
+                                Copyright 2025, Finsweet.com
+                            </h2>
                         </div>
                     </Col>
                     <Col lg={{ span: 5, offset: 4 }}>
-                    <div className="menu">
-                        <ul className='flex items-center gap-[2rem] pl-[45px]! copy-ul '>
-                            <li className='text-[16px]! font-semibold text-[#282938]! cursor-pointer '>Home</li>
-                            <li className='text-[16px]! font-semibold text-[#282938]! cursor-pointer '>About</li>
-                            <li className='text-[16px]! font-semibold text-[#282938]! cursor-pointer '>Features</li>
-                            <li className='text-[16px]! font-semibold text-[#282938]! cursor-pointer '>Pricing</li>
-                            <li className='text-[16px]! font-semibold text-[#282938]! cursor-pointer'>FAQ</li>
-                        </ul>
-                    </div>
+                        <div className="menu">
+                            <ul className='flex items-center gap-[2rem] pl-[45px]! copy-ul'>
+                                <li>
+                                    <Link to="/" className='text-[16px]! font-semibold text-[#282938]!'>
+                                        Home
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/about" className='text-[16px]! font-semibold text-[#282938]!'>
+                                        About
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/features" className='text-[16px]! font-semibold text-[#282938]!'>
+                                        Features
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/pricing" className='text-[16px]! font-semibold text-[#282938]!'>
+                                        Pricing
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/faq" className='text-[16px]! font-semibold text-[#282938]!'>
+                                        FAQ
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
                     </Col>
                 </Row>
             </Container>

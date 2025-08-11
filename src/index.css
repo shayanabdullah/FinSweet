@@ -35,16 +35,19 @@ body{
     left: 280px;
 }
 
-li {
+li a{
       font-family: 'Poppins', sans-serif;
       font-weight: 500 !important;
+      text-decoration: none !important;
     }
+
+
 .copy-ul{
     transition: 0.3s;
 }
 
     .copy-ul li:hover{
-        text-decoration: underline;
+        text-decoration: underline !important;
         font-weight: 600 !important;
       
     }

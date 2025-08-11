@@ -57,6 +57,7 @@ overflow: hidden;
     background-image:linear-gradient(to top left, rgba(28, 30, 83, 0.94),rgba(28, 30, 83, 0.42) ); 
     top: 100%;
     bottom: 0;
+    left: 0;
     transition: 0.5s;
 }
 
