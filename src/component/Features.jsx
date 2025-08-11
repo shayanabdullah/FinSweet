@@ -6,7 +6,7 @@ import icon2 from '../assets/icon-2.png'
 import icon3 from '../assets/icon-3.png'
 import icon4 from '../assets/icon-4.png'
 import icon5 from '../assets/icon-5.png'
-import icon6 from '../assets/iconseven.png'
+import icon6 from '../assets/Iconseven.png'
 const Features = () => {
   return (
     <section className='py-[128px]'>
