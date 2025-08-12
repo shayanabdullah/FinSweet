@@ -28,7 +28,7 @@ const CopyRight = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/features" className='text-[16px]! font-semibold text-[#282938]!'>
+                                    <Link to="/feature" className='text-[16px]! font-semibold text-[#282938]!'>
                                         Features
                                     </Link>
                                 </li>
@@ -42,6 +42,12 @@ const CopyRight = () => {
                                         FAQ
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link to="/blog" className='text-[16px]! font-semibold text-[#282938]!'>
+                                        Blog
+                                    </Link>
+                                </li>
+                              
                             </ul>
                         </div>
                     </Col>

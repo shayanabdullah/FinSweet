@@ -4,8 +4,7 @@ import Cards from '../../component/Cards'
 import icon1 from '../../assets/Iconseven.png'
 import icon2 from '../../assets/Icon-3.png'
 import icon3 from '../../assets/Icon-1.png'
-import logo from '../../assets/Logo-Section.png'
-import Images from "../../component/Images"
+import Logopart from '../Logopart'
 
 const Benefits = () => {
     return (
@@ -25,9 +24,7 @@ const Benefits = () => {
                     </Col>
                 </Row>
 
-                <div className="logo-section w-full pt-[48px]">
-                    <Images src={logo}/>
-                </div>
+              <Logopart/>
             </Container>
         </section>
     )

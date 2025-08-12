@@ -4,7 +4,7 @@ import { FaArrowRightLong } from 'react-icons/fa6'
 
 const FAQ = () => {
     return (
-        <section className='pb-[128px]'>
+        <section className='py-[128px]' id='faq'>
             <Container>
                 <Row>
                     <Col lg={3}>
