@@ -1,9 +1,7 @@
 import React from 'react'
-import Banner from '../component/featurepage/banner'
+import Banner from '../component/featurepage/Banner'
 import LogoSection from '../component/featurepage/LogoSection'
-import Benefits from '../component/aboutpage/Benefits'
 import Reuseablebenifits from '../../Reuseable/Reuseablebenifits'
-import ReuseableMission from '../component/ReuseableMission'
 import FeatureMission from '../component/featurepage/FeatureMission'
 import FAQ from '../component/FAQ'
 
