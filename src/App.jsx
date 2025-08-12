@@ -25,5 +25,3 @@ import FeaturePage from './pages/FeaturePage'
   }
 
   export default App
-
-  // shayan
