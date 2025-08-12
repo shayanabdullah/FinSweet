@@ -4,6 +4,7 @@ import Buttons from './Buttons'
 import { FaArrowRight, FaArrowRightLong } from 'react-icons/fa6'
 import Images from './Images'
 import Banner from '../assets/banner.png'
+import { Link } from 'react-router-dom'
 const Hero = () => {
   return (
     <section className='bg-[#1C1E53] py-[128px]'>
@@ -16,7 +17,9 @@ const Hero = () => {
                 </div>
   
                 <Buttons text='View our work'/>
-                <Buttons text='View Pricing' buttonInside={<FaArrowRightLong className=' icon absolute right-[20px] top-[21px]'/>} className='ml-[48px]! border-none relative icon-btn' />
+               <Link to='./pricing'>
+               <Buttons text='View Pricing' buttonInside={<FaArrowRightLong className=' icon absolute right-[20px] top-[21px]'/>} className='ml-[48px]! border-none relative icon-btn' />
+               </Link>
    
                 </Col>
                 <Col lg={{span:6, offset:1}}>

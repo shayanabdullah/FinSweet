@@ -33,11 +33,12 @@ const Client = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 2200,
         pauseOnHover: true,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />
       };
+
     return (
         <section className='py-128px'>
             <Container>
