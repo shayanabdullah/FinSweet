@@ -16,7 +16,9 @@ const Hero = () => {
                 <p className='text-[16px] font-regular text-[#ffffffb3] lg:pt-[24px] lg:pb-[48px] lg:w-[482px]!'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                 </div>
   
-                <Buttons text='View our work'/>
+              <Link to='/work'>
+              <Buttons text='View our work'/>
+              </Link>
                <Link to='./pricing'>
                <Buttons text='View Pricing' buttonInside={<FaArrowRightLong className=' icon absolute right-[20px] top-[21px]'/>} className='ml-[48px]! border-none relative icon-btn' />
                </Link>

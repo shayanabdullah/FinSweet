@@ -1,0 +1,8 @@
+a{
+    text-decoration: none !important;
+}
+
+.project-title .icon-btn-2:hover .icon{
+right: -3.5rem !important;
+color: #2456a0 !important;
+}

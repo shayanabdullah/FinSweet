@@ -78,4 +78,21 @@
 }
 .card2{
     border-radius: 10px;
+    position: relative;
+overflow: hidden;
+}
+
+
+.card2::after{
+    position: absolute;
+    width: 950px;
+    height: 950px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 50%;
+    top: -54%;
+    left: 45%;
+    transform: translateX(-50%);
+    content: "";
+    z-index: 1;
+
 }
