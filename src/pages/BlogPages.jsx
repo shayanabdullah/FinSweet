@@ -1,5 +1,5 @@
 import React from 'react'
-import Banner from '../component/blogpage/banner'
+import Banner from '../component/blogpage/Banner'
 import BlogCards from '../component/blogpage/BlogCards'
 
 
