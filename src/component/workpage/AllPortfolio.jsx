@@ -105,32 +105,36 @@ const AllPortfolio = () => {
          </Link>
             </Col>
             <Col lg={6}>
+          <Link to='/readcase5'>
           <div className="work-card6">
           <div className="img-box w-full lg:pb-[26px]">
                 <Images className="w-full" src={img5}/>
             </div>
             <div className="project-title">
-                <h2 className='lg:text-[2.6rem]! font-semibold! leading-[56px]! text-[#282938] lg:pb-[27px] '>Template 5</h2>
+                <h2 className='lg:text-[2.6rem]! font-semibold! leading-[56px]! text-[#282938]!  lg:pb-[27px] '>Template 5</h2>
                 <p className='text-[16px] font-regular! text-[#282938] opacity-[0.7]'>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
-                <Link>
+                <Link to='/readcas5'>
                 <button className='text-[18px]! font-bold! text-[#282938] relative icon-btn-2 cursor-pointer '>Read case study <FaArrowRightLong className='absolute top-[5px] right-[-1.8rem] icon'/></button>
                 </Link>
             </div>
           </div>
+          </Link>
             </Col>
             <Col lg={6}>
-          <div className="work-card6">
+         <Link to='/readcase6'>
+         <div className="work-card7">
           <div className="img-box w-full lg:pb-[26px]">
                 <Images className="w-full" src={img6}/>
             </div>
             <div className="project-title">
-                <h2 className='lg:text-[2.6rem]! font-semibold! leading-[56px]! text-[#282938] lg:pb-[27px] '>Template 6</h2>
+                <h2 className='lg:text-[2.6rem]! font-semibold! leading-[56px]! text-[#282938]! lg:pb-[27px] '>Template 6</h2>
                 <p className='text-[16px] font-regular! text-[#282938] opacity-[0.7]'>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</p>
-                <Link>
+                <Link to='/readcase6'>
                 <button className='text-[18px]! font-bold! text-[#282938] relative icon-btn-2 cursor-pointer '>Read case study <FaArrowRightLong className='absolute top-[5px] right-[-1.8rem] icon'/></button>
                 </Link>
             </div>
           </div>
+         </Link>
             </Col>
         </Row>
     </Container>

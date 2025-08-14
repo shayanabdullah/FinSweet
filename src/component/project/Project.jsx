@@ -6,6 +6,7 @@ import Card from '../../assets/Card.png'
 import CardTwo from '../../assets/Card-Two.png'
 import CardThree from '../../assets/Card-Three.png'
 import '../../component/project/Project.css'
+import { Link } from 'react-router-dom'
 
 const Project = () => {
   return (
@@ -18,9 +19,11 @@ const Project = () => {
             </div>
           </Col>
           <Col lg={{ span: 2, offset: 6 }}>
-            <h3 className='text-[16px]! text-[#282938] font-bold! cursor-pointer relative icon-btn'>View More
+           <Link to='/work'>
+           <h3 className='text-[16px]! text-[#282938]! font-bold! cursor-pointer relative icon-btn'>View More
               <FaArrowRightLong className='absolute top-[2px] right-[90px] icon' />
             </h3>
+           </Link>
           </Col>
         </Row>
         <Row>

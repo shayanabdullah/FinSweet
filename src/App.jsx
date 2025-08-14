@@ -14,8 +14,8 @@ import ReadCasePage1 from './pages/ReadCasePage1'
 import ReadCasePage2 from './pages/ReadCasePage2'
 import ReadCasePage3 from './pages/ReadCasePage3'
 import ReadCasePage4 from './pages/ReadCasePage4'
-import ReadCasePage4 from './pages/ReadCasePage5'
-import ReadCasePage4 from './pages/ReadCasePage6'
+import ReadCasePage5 from './pages/ReadCasePage5'
+import ReadCasePage6 from './pages/ReadCasePage6'
 
 
   let router = createBrowserRouter(createRoutesFromElements(

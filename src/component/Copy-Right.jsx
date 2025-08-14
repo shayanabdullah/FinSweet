@@ -38,7 +38,7 @@ const CopyRight = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/faq" className='text-[16px]! font-semibold text-[#282938]!'>
+                                    <Link to="/feature#faq" className='text-[16px]! font-semibold text-[#282938]!'>
                                         FAQ
                                     </Link>
                                 </li>
