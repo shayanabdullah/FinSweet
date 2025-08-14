@@ -1,0 +1,14 @@
+.ul{
+    list-style: disc !important;
+    margin: 0 !important;
+    padding: 0  !important;
+}
+
+.box{
+    transition: 0.3s;
+
+}
+.box p:hover{
+    color: #2405f2;
+    cursor: pointer;
+}
