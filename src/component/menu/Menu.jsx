@@ -24,7 +24,7 @@ const Menu = () => {
               <Nav.Link href="#link" as={Link} to="/feature#faq" className='text-[16px]  font-medium text-[#BBBBCB]! hover:text-white! duration-300'>
                FAQ
               </Nav.Link>
-              <Nav.Link href="#link" className='text-[16px]!  font-medium text-[#BBBBCB]! hover:text-white! duration-300'>Blog</Nav.Link>
+              <Nav.Link href="#link" as={Link} to="/blog" className='text-[16px]!  font-medium text-[#BBBBCB]! hover:text-white! duration-300'>Blog</Nav.Link>
             </Nav>
             <Buttons text='Contact us' className="ml-[48px]!" />
           </Navbar.Collapse>
