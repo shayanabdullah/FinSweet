@@ -26,7 +26,9 @@ const Menu = () => {
               </Nav.Link>
               <Nav.Link href="#link" as={Link} to="/blog" className='text-[16px]!  font-medium text-[#BBBBCB]! hover:text-white! duration-300'>Blog</Nav.Link>
             </Nav>
-            <Buttons text='Contact us' className="ml-[48px]!" />
+           <Link to='/contact'>
+           <Buttons text='Contact us' className="ml-[48px]!" />
+           </Link>
           </Navbar.Collapse>
         </Container>
       </Navbar>

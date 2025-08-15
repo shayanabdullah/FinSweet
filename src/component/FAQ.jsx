@@ -1,6 +1,7 @@
 import React from 'react'
 import { Accordion, Col, Container, Row } from 'react-bootstrap'
 import { FaArrowRightLong } from 'react-icons/fa6'
+import { Link } from 'react-router-dom'
 
 const FAQ = () => {
     return (
@@ -14,9 +15,11 @@ const FAQ = () => {
                                     asked questions
                                 </span>
                             </h2>
-                            <h4 className='text-[18px] font-medium! text-[#2405F2] cursor-pointer relative icon-btn contact'>Contact us for more info
+                       <Link to='/contact'>
+                       <h4 className='text-[18px] font-medium! text-[#2405F2]! cursor-pointer relative icon-btn contact'>Contact us for more info
                                 <FaArrowRightLong className='absolute top-[4px] left-[90px] icon' />
                             </h4>
+                       </Link>
                         </div>
                     </Col>
                     <Col lg={{ span: 6, offset: 3 }}>

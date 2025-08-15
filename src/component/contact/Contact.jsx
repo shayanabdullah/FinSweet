@@ -5,6 +5,7 @@ import contact from '../../assets/contact.png'
 import '../contact/contact.css'
 import Buttons from '../Buttons'
 import { FaArrowRightLong } from 'react-icons/fa6'
+import { Link } from 'react-router-dom'
 const Contact = () => {
     return (
         <section className='py-[128px]'>
@@ -34,9 +35,11 @@ const Contact = () => {
                                     </div>
                                     <Buttons text='Send an Inquiry' className='w-full mt-[39px]! bg-[#FCD980]! text-black! hover:bg-transparent! hover:text-white! mb-[28px]! ' />
                                  <div className='text-center'>
-                                 <h3 className='text-[16px]! text-white font-bold! cursor-pointer relative icon-btn'>Get in touch with us
+                                <Link to='/contact'>
+                                <h3 className='text-[16px]! text-white font-bold! cursor-pointer relative icon-btn'>Get in touch with us
                                         <FaArrowRightLong className='absolute top-[2px] right-[120px] icon' />
                                     </h3>
+                                </Link>
                                  </div>
                                 </div>
                             </div>

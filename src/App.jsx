@@ -16,7 +16,9 @@ import ReadCasePage3 from './pages/ReadCasePage3'
 import ReadCasePage4 from './pages/ReadCasePage4'
 import ReadCasePage5 from './pages/ReadCasePage5'
 import ReadCasePage6 from './pages/ReadCasePage6'
+import ReadBlogPage from './pages/ReadBlogPage'
 import BlogPages from './pages/BlogPages'
+import ContactPages from './pages/ContactPages'
 
 
   let router = createBrowserRouter(createRoutesFromElements(
@@ -34,6 +36,8 @@ import BlogPages from './pages/BlogPages'
       <Route path='/readcase4' element={<ReadCasePage4/>}></Route>
       <Route path='/readcase5' element={<ReadCasePage5/>}></Route>
       <Route path='/readcase6' element={<ReadCasePage6/>}></Route>
+      <Route path='/readblog1' element={<ReadBlogPage/>}></Route>
+      <Route path='/contact' element={<ContactPages/>}></Route>
     </Route>
     <Route element={<RootLayout2/>}>
     <Route path='/all' element={<WorkSection/>}></Route>
