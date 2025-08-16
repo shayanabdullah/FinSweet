@@ -47,6 +47,11 @@ const CopyRight = () => {
                                         Blog
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link to="/policy" className='text-[16px]! font-semibold text-[#282938]!'>
+                                        Policy
+                                    </Link>
+                                </li>
                               
                             </ul>
                         </div>

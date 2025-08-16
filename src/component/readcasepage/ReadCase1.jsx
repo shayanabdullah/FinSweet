@@ -57,10 +57,12 @@ const ReadCase1 = () => {
                     <div className="all lg:px-[114px] px-[3rem]">
                         <div className="">
                             <h2 className='lg:text-[38px]! text-[24px]! font-semibold! leading-[56px] text-[#282938] lg:pb-[29px] pb-[18px]'>About the project</h2>
-                            <p className='lg:text-[16px]! font-medium! leading-[28px] opacity-[0.7] text-[#282938] lg:pb-[24px] pb-[1rem] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            <p className='lg:text-[16px]! font-medium! leading-[28px] opacity-[0.7] text-[#282938] lg:pb-[24px] pb-[1rem] '>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                                 <span className='block'>  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</span>
                                 ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                <span className='block'> fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt </span>mollit anim id est laborum.</p>
+                                <span className='block'> fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt </span>mollit anim id est laborum.
+                                </p>
                         </div>
                        <div className="all-list lg:pb-[4rem] pb-[3rem]">
                        <ul className='ul'>

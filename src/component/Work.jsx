@@ -9,20 +9,20 @@ import WorkReuseable from '../../Reuseable/WorkReuseable'
 import { Link } from 'react-router-dom'
 const Work = () => {
   return (
-   <section className='py-[128px]'>
+   <section className='lg:py-[128px] py-[4rem]'>
       <Container>
         <Row>
             <Col lg={4}>
             <div className="work-text">
-                <h2 className='text-[48px]! font-semibold!'>How we work</h2>
-                <p className='text-[16px]! font-regular lg:w-[355px] py-[16px]! pb-[0px]' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                <h2 className='lg:text-[48px]! text-[32px]! font-semibold!'>How we work</h2>
+                <p className='text-[16px]! font-regular lg:w-[355px] lg:py-[16px]! py-[10px] pb-[0px]' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
            <Link to='/contact'>
-           <h3 className='text-[18px]! font-bold! text-[#2405F2]! relative icon-btn-2 cursor-pointer '>Get in touch with us <FaArrowRightLong className='absolute top-[4px] right-[222px] icon'/> </h3>
+           <h3 className='lg:text-[18px]! text-[14px]! font-bold! text-[#2405F2]! relative icon-btn-2 cursor-pointer pb-[32px] lg:pb-[0] '>Get in touch with us <FaArrowRightLong className='absolute lg:top-[4px] top-[1px] lg:right-[222px] right-[240px] icon'/> </h3>
            </Link>
             </div>
             </Col>
             <Col lg={{span:6, offset:1}}>
-               <Row className='gap-y-[48px]!'>
+               <Row className='lg:gap-y-[48px]! gap-y-[20px]!'>
                <WorkReuseable src={one} text='Strategy'/>
                <WorkReuseable src={two} text='Wireframing'/>
                <WorkReuseable src={three} text='Design'/>

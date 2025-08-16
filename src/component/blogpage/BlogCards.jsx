@@ -7,6 +7,7 @@ import img3 from '../../assets/blogpagecard3.png'
 import img4 from '../../assets/blogpagecard4.png'
 import img5 from '../../assets/blogpagecard5.png'
 import img6 from '../../assets/blogpagecard6.png'
+import { Link } from 'react-router-dom'
 const BlogCards = () => {
   return (
     <section className='lg:pb-[128px] pb-[5rem]'>
@@ -17,7 +18,9 @@ const BlogCards = () => {
           </div>
             <Row className='gap-y-[3rem]'>
                 <Col lg={4}>
-                <BlogCard src={img1}/>
+                  <Link to='/readblog2'>
+                  <BlogCard src={img1}/>
+                  </Link>     
                 </Col>
                 <Col lg={4}>
                 <BlogCard src={img2}/>

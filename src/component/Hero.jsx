@@ -7,25 +7,29 @@ import Banner from '../assets/banner.png'
 import { Link } from 'react-router-dom'
 const Hero = () => {
   return (
-    <section className='bg-[#1C1E53] py-[128px]'>
+    <section className='bg-[#1C1E53] lg:py-[128px] py-[4rem]'>
         <Container>
             <Row>
                 <Col lg={5}>
                 <div className="banner-text">
-                <h1 className='text-[54px]! font-bold! text-white leading-[74px] heading'>Building stellar websites for early startups</h1>
-                <p className='text-[16px] font-regular text-[#ffffffb3] lg:pt-[24px] lg:pb-[48px] lg:w-[482px]!'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <h1 className='lg:text-[54px]! text-[48px] font-bold! text-white lg:leading-[74px] text-center lg:text-left!  heading'>Building stellar websites for early startups</h1>
+                <p className='lg:text-[16px] text-[14px] font-regular text-[#ffffffb3] lg:pt-[24px]  pt-[1rem] lg:pb-[48px] pb-[2rem] lg:w-[482px]! text-center lg:text-left!'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                 </div>
-  
+                <div className="text-center lg:text-left!">
               <Link to='/work'>
               <Buttons text='View our work'/>
               </Link>
                <Link to='./pricing'>
-               <Buttons text='View Pricing' buttonInside={<FaArrowRightLong className=' icon absolute right-[20px] top-[21px]'/>} className='ml-[48px]! border-none relative icon-btn' />
-               </Link>
+          <Buttons text='View Pricing' buttonInside={<FaArrowRightLong className=' icon absolute right-[20px] top-[21px]'/>} className='lg:ml-[48px]! ml-[20px]! mb-[3rem]! border-none relative icon-btn' />
+          </Link>
+          </div>
+             
    
                 </Col>
                 <Col lg={{span:6, offset:1}}>
-                 <Images src={Banner}/>
+                <div className="w-full">
+                <Images src={Banner} className='w-full'/>
+                </div>
                 
                 </Col>
             </Row>
