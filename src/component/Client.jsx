@@ -40,12 +40,12 @@ const Client = () => {
       };
 
     return (
-        <section className='py-128px'>
+        <section className='lg:py-128px py-[66px]'>
             <Container>
                 <Row>
                     <Col lg={3}>
                         <div className="client-text w-full">
-                            <h2 className='text-[38px] font-semibold! text-[#282938] pb-[16px]'>What our clients say about us</h2>
+                            <h2 className='lg:text-[38px]!  text-[22px]! font-semibold! text-[#282938] lg:pb-[16px]  m-[0]!'>What our clients say about us</h2>
                             <p className='text-[16px] font-regular text-[#282938] opacity-75'>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p>
                         </div>
                     </Col>

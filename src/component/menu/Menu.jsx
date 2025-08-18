@@ -27,7 +27,7 @@ const Menu = () => {
         </Navbar.Toggle>
 
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto nav-bar">
+            <Nav className="ms-auto nav-bar lg:gap-x-[32px] gap-y-[20px] text-center">
               <Nav.Link as={Link} to='/' className='text-[16px]  font-medium text-[#BBBBCB]! hover:text-white! duration-300'>Home</Nav.Link>
               <Nav.Link as={Link} to='/about' className='text-[16px]  font-medium text-[#BBBBCB]! hover:text-white! duration-300'>About us</Nav.Link>
               <Nav.Link href="#link" as={Link} to='/feature' className='text-[16px]  font-medium text-[#BBBBCB]! hover:text-white! duration-300'>Features</Nav.Link>
@@ -38,9 +38,12 @@ const Menu = () => {
               <Nav.Link href="#link" as={Link} to="/blog" className='text-[16px]!  font-medium text-[#BBBBCB]! hover:text-white! duration-300'>Blog</Nav.Link>
               <Nav.Link href="#link" as={Link} to="/policy" className='text-[16px]!  font-medium text-[#BBBBCB]! hover:text-white! duration-300'>Policy</Nav.Link>
             </Nav>
-           <Link to='/contact'>
-           <Buttons text='Contact us' className="ml-[48px]!" />
+      <div className="text-center">
+      <Link to='/contact' >
+           <Buttons text='Contact us' className="lg:ml-[48px]! mt-[20px]! lg:mt-[0]!" />
            </Link>
+
+      </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>

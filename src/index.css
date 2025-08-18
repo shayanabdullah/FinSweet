@@ -55,3 +55,55 @@ li a{
     ::-webkit-scrollbar{
         width: 0;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+    @media(max-width:991.99px){
+        .banner-text .heading{
+            font-size: 46px;
+        }
+
+        .banner-text p{
+            padding-bottom: 1.5rem;
+        }
+
+        .banner{
+            padding-left:20px;
+            padding-right:20px;
+        }
+
+        .work-text{
+            text-align: center;
+        }
+        .work_row{
+            padding-left: 20px;
+            padding-right: 20px;
+            row-gap: 20px;
+        }
+
+        .project_row{
+            display: flex;
+        }
+
+        .project-heading h2{
+            font-size: 38px !important;
+        }
+        .project{
+            padding-left: 20px;
+            padding-right: 20px;
+        } 
+
+        .project .view-btn:hover .icon{
+         left: 230px;
+
+        }
+    }

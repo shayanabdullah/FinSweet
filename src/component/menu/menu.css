@@ -1,7 +1,14 @@
 .nav-bar a{
     font-family: "Poppins", sans-serif;
 }
-.nav-bar {
-    gap: 32px;
-    
+
+.navbar-toggler:focus {
+	text-decoration: none;
+	outline: 0;
+	box-shadow: 0 0 0 transparent !important;
+}
+.nav-link {
+	/* display: block; */
+	padding: 0 !important;
+
 }

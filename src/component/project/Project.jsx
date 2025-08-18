@@ -10,23 +10,23 @@ import { Link } from 'react-router-dom'
 
 const Project = () => {
   return (
-    <section className='lg:py-[128px] py-[96px]'>
+    <section className='lg:py-[128px] py-[96px] project'>
       <Container>
         <Row>
           <Col lg={4}>
             <div className="project-heading">
-              <h2 className='lg:text-[48px]! sm:text-[24px]! text-[32px]! lg:text-left! text-center font-semibold! text-[#282938] lg:pb-[64px]! pb-[1rem]'>View our projects</h2>
+              <h2 className='lg:text-[48px]! lg:text-left! text-center font-semibold! text-[#282938] lg:pb-[64px]! pb-[1rem] m-[0]!'>View our projects</h2>
             </div>
           </Col>
           <Col lg={{ span: 2, offset: 6 }}>
            <Link to='/work'>
-           <h3 className='text-[16px]! text-[#282938]! font-bold! cursor-pointer relative icon-btn text-center  lg:p-[0] pb-[20px] group'>View More
-              <FaArrowRightLong className='absolute top-[2px] lg:left-[150px]  left-[220px] group :left-[230px] icon' />
+           <h3 className='text-[16px]! text-[#282938]! font-bold! cursor-pointer relative icon-btn text-center  lg:p-[0] pb-[20px] view-btn'>View More
+              <FaArrowRightLong className='absolute top-[2px] lg:left-[150px]  icon' />
             </h3>
            </Link>
           </Col>
         </Row>
-        <Row className='gap-y-[3rem]'>
+        <Row className='gap-y-[2rem]'>
           <Col lg={8}>
             <Link to='/work'>
             <div className="img-main ">
@@ -39,12 +39,13 @@ const Project = () => {
                   </div>
                 </div>
               </div>
-              <Images src={Card} />
+              <Images src={Card} className='w-100'/>
             </div>
             </Link>
           </Col>
           <Col lg={4}>
-           <Link to='/work'>
+         <div className="project_row">
+         <Link to='/work'>
            <div className='img-2'>
               <div className="overlay">
                 <div className="overlay-text pt-[129px]">
@@ -70,6 +71,7 @@ const Project = () => {
               <Images src={CardThree} />
             </div>
             </Link>
+         </div>
           </Col>
         </Row>
       </Container>

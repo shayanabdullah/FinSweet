@@ -9,17 +9,17 @@ import icon5 from '../assets/Icon-5.png'
 import icon6 from '../assets/Iconseven.png'
 const Features = () => {
   return (
-    <section className='py-[128px]'>
+    <section className='lg:py-[128px] py-[24px]'>
          <Container>
               <div className='features'>
               <div className='text-center'>
-           <h5 className='text-[16px]! font-semibold! text-[#282938] pb-[12px]'>Features</h5>
+           <h5 className='lg:text-[16px]! text-[14px]! font-semibold! text-[#282938] lg:pb-[12px] pb-[8px]'>Features</h5>
            </div>
            <Row>
          <div className='w-full flex justify-center! '>
          <Col lg={6} >
              <div className='text-center w-full flex justify-center!'>
-             <h2 className='text-[48px]! font-bold! text-[#282938] lg:w-[580px]  pb-[47px]'>Design that solves <span className='block'>problems, one product at a time</span></h2>
+             <h2 className='lg:text-[48px]!  font-bold! text-[#282938] lg:w-[580px]  pb-[47px]'>Design that solves <span className='block'>problems, one product at a time</span></h2>
              </div>
             </Col>
          </div>
