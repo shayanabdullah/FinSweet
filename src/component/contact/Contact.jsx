@@ -8,22 +8,22 @@ import { FaArrowRightLong } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
 const Contact = () => {
     return (
-        <section className='py-[128px]'>
+        <section className='lg:py-[128px] py-[96px] '>
             <Container>
                 <Row className='gx-0 overflow-hidden!'>
                     <Col lg={6}>
                         <div className="contact-box w-full">
                             <div className="overlay">
-                                <div className="over-text pt-[96px] px-[96px]">
+                                <div className="over-text lg:pt-[96px] lg:px-[96px]">
                                     <h3 className='text-[54px]! font-semibold! text-white pb-[24px]'>Building stellar websites for early startups</h3>
                                     <p className='text-[16px]! font-medium! text-white pr-[29px]!'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.</p>
                                 </div>
                             </div>
-                            <Images src={contact} />
+                            <Images src={contact} className='w-full h-[691px]' />
                         </div>
                     </Col>
-                    <Col lg={6}>
-                        <div className="all bg-[#1C1E53] pt-[96px] px-[96px] pb-[35px] h-full">
+                    <Col lg={6}  >
+                        <div className="all bg-[#1C1E53] lg:pt-[96px] lg:px-[96px] lg:pb-[35px] lg:h-full h-[691px]">
                             <div className="text ">
                                 <h3 className='text-white text-[32px]! font-medium! pb-[30px]' >Send inquiry</h3>
                                 <p className='text-[16px]! font-medium! text-white  mb-[40px]!'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>

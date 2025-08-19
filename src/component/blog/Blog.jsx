@@ -6,26 +6,28 @@ import BlogCard2 from '../../assets/Blog-Card-2.png'
 import BlogCard3 from '../../assets/Blog-Card-3.png'
 const Blog = () => {
   return (
- <section className='py-[128px]'>
-  <Container>
-    <div className="blog-text">
-        <h2 className='text-[48px]! font-semibold! text-[#282938] pb-[64px]'>Our blog</h2>
-    </div>
- <div className="cards">
- <Row>
-        <Col lg={4}>
-          <BlogCard src={BlogCard1}  />
-        </Col>
-        <Col lg={4}>
-        <BlogCard src={BlogCard2}  />
-        </Col>
-        <Col lg={4}>
-        <BlogCard src={BlogCard3}  />
-        </Col>
-    </Row>
- </div>
-  </Container>
- </section>
+    <section className='lg:py-[128px] py-[96px]'>
+      <Container>
+        <div className="blog-text">
+          <h2 className='text-[48px]! font-semibold! text-[#282938] pb-[64px]'>Our blog</h2>
+        </div>
+        <div className="cards">
+          <Row>
+            <Col lg={4} md={6} sm={6}>
+              <BlogCard src={BlogCard1} />
+            </Col>
+            <Col lg={4} md={6} sm={6}>
+              <BlogCard src={BlogCard2} />
+            </Col>
+
+            <Col lg={4} md={6} sm={6}  >
+              <BlogCard src={BlogCard3} />
+            </Col>
+
+          </Row>
+        </div>
+      </Container>
+    </section>
   )
 }
 

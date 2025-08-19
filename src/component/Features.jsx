@@ -13,7 +13,7 @@ const Features = () => {
          <Container>
               <div className='features'>
               <div className='text-center'>
-           <h5 className='lg:text-[16px]! text-[14px]! font-semibold! text-[#282938] lg:pb-[12px] pb-[8px]'>Features</h5>
+           <h5 className='lg:text-[16px]! text-[14px]! font-semibold! text-[#282938] lg:pb-[12px] pb-[8px] m-[0]!'>Features</h5>
            </div>
            <Row>
          <div className='w-full flex justify-center! '>
@@ -27,20 +27,24 @@ const Features = () => {
               </div>
 
          <Row>
-            <Col lg={4}>
+            <Col lg={4} md={6} sm={6} xs={6}>
             <Cards src={icon1} text="Uses Client First" Text='Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. '/>
             </Col>
-            <Col lg={4}>
-            <Cards src={icon2} text="Two Free Revision Round" Text='Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. '/></Col>
-            <Col lg={4}>
-            <Cards src={icon3} text="Template Customization" Text='Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. '/></Col>
-            <Col lg={4}>
+            <Col lg={4}  md={6} sm={6} xs={6}>
+            <Cards src={icon2} text="Two Free Revision Round" Text='Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. '/>
+            </Col>
+            <Col lg={4}  md={6} sm={6} xs={6} >
+            <Cards src={icon3} text="Template Customization" Text='Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. '/>
+            </Col>
+            <Col lg={4}  md={6} sm={6} xs={6}>
             <Cards src={icon4} text="24/7 Support" Text='Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. '/>
             </Col>
-            <Col lg={4}>
-            <Cards src={icon5} text="Quick Delivery" Text='Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. '/></Col>
-            <Col lg={4}>
-            <Cards src={icon6} text="Hands-on approach" Text='Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. '/></Col>
+            <Col lg={4}  md={6} sm={6} xs={6}>
+            <Cards src={icon5} text="Quick Delivery" Text='Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. '/>
+            </Col>
+            <Col lg={4}  md={6} sm={6} xs={6}>
+            <Cards src={icon6} text="Hands-on approach" Text='Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. '/>
+            </Col>
          </Row>
          </Container>
     </section>

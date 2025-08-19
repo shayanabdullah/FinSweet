@@ -5,18 +5,18 @@ import { Link } from 'react-router-dom'
 
 const FAQ = () => {
     return (
-        <section className='py-[128px]' id='faq'>
+        <section className=' lg:py-[128px] py-[96px]' id='faq'>
             <Container>
                 <Row>
                     <Col lg={3}>
                         <div className="faq-text">
-                            <h2 className='text-[38px] font-semibold! text-[#282938]' >Frequently
-                                <span className='block'>
+                            <h2 className='text-[38px] font-semibold! text-[#282938]' >Frequently 
+                                <span className='block sb'>
                                     asked questions
                                 </span>
                             </h2>
                        <Link to='/contact'>
-                       <h4 className='text-[18px] font-medium! text-[#2405F2]! cursor-pointer relative icon-btn contact'>Contact us for more info
+                       <h4 className='text-[18px]! font-medium! text-[#2405F2]! cursor-pointer relative icon-btn contact'>Contact us for more info
                                 <FaArrowRightLong className='absolute top-[4px] left-[90px] icon' />
                             </h4>
                        </Link>

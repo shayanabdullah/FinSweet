@@ -15,12 +15,12 @@ const Project = () => {
         <Row>
           <Col lg={4}>
             <div className="project-heading">
-              <h2 className='lg:text-[48px]! lg:text-left! text-center font-semibold! text-[#282938] lg:pb-[64px]! pb-[1rem] m-[0]!'>View our projects</h2>
+              <h2 className='lg:text-[48px]! font-semibold! text-[#282938] lg:pb-[64px]! pb-[1rem] m-[0]! '>View our projects</h2>
             </div>
           </Col>
           <Col lg={{ span: 2, offset: 6 }}>
            <Link to='/work'>
-           <h3 className='text-[16px]! text-[#282938]! font-bold! cursor-pointer relative icon-btn text-center  lg:p-[0] pb-[20px] view-btn'>View More
+           <h3 className='text-[16px]! text-[#282938]! font-bold! cursor-pointer relative icon-btn  lg:p-[0] pb-[20px] '>View More
               <FaArrowRightLong className='absolute top-[2px] lg:left-[150px]  icon' />
             </h3>
            </Link>
@@ -31,11 +31,11 @@ const Project = () => {
             <Link to='/work'>
             <div className="img-main ">
               <div className="overlay">
-                <div className="overlay-text lg:pt-[19rem] lg:px-[20px] pt-[3.3rem] px-[15px]">
-                  <h3 className='font-semibold! lg:text-[24px]! text-[1.1rem]! text-white pb-[10px] lg:pr-[35px] lg:pl-[3rem] lg:leading-[32px] leading-[28px] m-[0]!'>Workhub office Webflow Webflow Design</h3>
-                  <p className='lg:text-[16px]! text-[10px]! font-medium text-white pr-[25px] lg:pl-[48px]'>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam </p>
+                <div className="overlay-text ">
+                  <h3 className='font-semibold! text-[24px]!  text-white pb-[10px] lg:pr-[35px] lg:pl-[3rem] lg:leading-[32px] leading-[28px] m-[0]! p-head'>Workhub office Webflow Webflow Design</h3>
+                  <p className='lg:text-[16px]! sm:text-[10px]! md:text-[14px] font-medium text-white pr-[25px] lg:pl-[48px]'>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam </p>
                   <div className="overlay-btn">
-                    <h3 className='text-center lg:text-[18px]! text-[12px]! font-bold! text-white relative icon-btn-2 cursor-pointer'>view more <FaArrowRightLong className='absolute top-[4px] lg:right-[120px] right-[30px] icon' /> </h3>
+                    <h3 className=' text-[18px]!  font-bold! text-white relative icon-btn-2 cursor-pointer'>view more <FaArrowRightLong className='absolute top-[3.5px] lg:right-[-20%]  icon' /> </h3>
                   </div>
                 </div>
               </div>
@@ -48,10 +48,10 @@ const Project = () => {
          <Link to='/work'>
            <div className='img-2'>
               <div className="overlay">
-                <div className="overlay-text pt-[129px]">
-                  <h3 className='font-semibold! text-[24px]! text-white pb-[10px] pr-[100px] pl-[3.5rem] leading-[32px] mb-[0px]!'>Unisaas Website Design</h3>
+                <div className="overlay-text lg:pt-[129px]">
+                  <h3 className='font-semibold! lg:text-[24px]! text-white lg:pb-[10px] lg:pr-[100px] lg:pl-[3.5rem] lg:leading-[32px] mb-[0px]! c-text'>Unisaas Website Design</h3>
                   <div className="overlay-btn">
-                    <h3 className='pl-[3.5rem] text-[18px]! font-bold! text-[#FCD980]! relative icon-btn-2 cursor-pointer'>View portfolio <FaArrowRightLong className='absolute top-[4px] left-[180px] icon' /> </h3>
+                    <h3 className='lg:pl-[3.5rem] lg:text-[18px]! font-bold! text-[#FCD980]! relative icon-btn-2 cursor-pointer btn-text'>View portfolio <FaArrowRightLong className='absolute top-[4px] left-[180px] icon' /> </h3>
                   </div>
                 </div>
               </div>
@@ -61,10 +61,10 @@ const Project = () => {
             <Link to='/work'>
             <div className='img-3'>
             <div className="overlay">
-                <div className="overlay-text pt-[129px]">
-                  <h3 className='font-semibold! text-[24px]! text-white pb-[10px] pr-[100px] pl-[3.5rem] leading-[32px] mb-[0px]!'>Unisaas Website Design</h3>
+                <div className="overlay-text lg:pt-[129px]">
+                  <h3 className='font-semibold! lg:text-[24px]! text-white lg:pb-[10px] lg:pr-[100px] lg:pl-[3.5rem] lg:leading-[32px] mb-[0px]! c-text'>Unisaas Website Design</h3>
                   <div className="overlay-btn">
-                    <h3 className='pl-[3.5rem] text-[18px]! font-bold! text-[#FCD980]! relative icon-btn-2 cursor-pointer'>View portfolio <FaArrowRightLong className='absolute top-[4px] left-[180px] icon' /> </h3>
+                    <h3 className='lg:pl-[3.5rem] lg:text-[18px]! font-bold! text-[#FCD980]! relative icon-btn-2 cursor-pointer btn-text'>View portfolio <FaArrowRightLong className='absolute top-[4px] left-[180px] icon' /> </h3>
                   </div>
                 </div>
               </div>

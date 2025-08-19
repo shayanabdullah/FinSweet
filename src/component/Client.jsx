@@ -45,15 +45,15 @@ const Client = () => {
                 <Row>
                     <Col lg={3}>
                         <div className="client-text w-full">
-                            <h2 className='lg:text-[38px]!  text-[22px]! font-semibold! text-[#282938] lg:pb-[16px]  m-[0]!'>What our clients say about us</h2>
-                            <p className='text-[16px] font-regular text-[#282938] opacity-75'>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p>
+                            <h2 className='lg:text-[38px]!  text-[22px]! md:text-[28px]! sm:text-center  font-semibold! text-[#282938] lg:pb-[16px]  m-[0]!'>What our clients say about us</h2>
+                            <p className='lg:text-[16px] font-regular text-[#282938] opacity-75'>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p>
                         </div>
                     </Col>
                     <Col lg={{ span: 8, offset: 1 }}>
                         <Slider {...settings}>
                         <div className='c_main'>
                             <div className="client lg:w-[790px] pb-[48px]">
-                                <h3 className='text-[32px] font-semibold!'>"The best agency we’ve worked with so far. They understand our product and are able to add new <span className='block'>features with a great focus."</span></h3>
+                                <h3 className='lg:text-[32px] font-semibold!'>"The best agency we’ve worked with so far. They understand our product and are able to add new <span className='block'>features with a great focus."</span></h3>
                             </div>
                             <Row>
                                 <Col lg={1}>
@@ -73,7 +73,7 @@ const Client = () => {
                             </div>
                             <Row>
                                 <Col lg={1}>
-                                    <div className="img">
+                                    <div className="img2">
                                         <img src={CLientPhoto2} />
                                     </div>
                                 </Col>
@@ -90,7 +90,7 @@ const Client = () => {
                             </div>
                             <Row>
                                 <Col lg={1}>
-                                    <div className="img">
+                                    <div className="img3">
                                         <img src={CLientPhoto3} />
                                     </div>
                                 </Col>

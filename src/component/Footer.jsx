@@ -8,16 +8,16 @@ import { FaInstagram } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <section className='py-[96px] bg-[#1C1E53] relative'>
+        <section className='lg:py-[96px] bg-[#1C1E53] relative py-[3rem]'>
              <Container>
                 <Row> 
                     <Col lg={5} className='pl-[0]!'>
-                     <div>
+                     <div className='footer-text'>
                         <Images src={Logo} className='w-[10rem] cursor-pointer'/>
-                        <p className='text-[16px]! text-white font-medium! pt-[24px]! pb-[86px] lg:w-[340px]'>We are always open to discuss your project and improve your online presence.</p>
+                        <p className='text-[16px]! text-white font-medium! pt-[24px]! lg:pb-[86px] lg:w-[340px]'>We are always open to discuss your project and improve your online presence.</p>
                      </div>
 
-                     <div className="box bg-[#FCD980] py-[20px] absolute bottom-0  left-[75px] ">
+                     <div className="box bg-[#FCD980] py-[20px] absolute bottom-0  lg:left-[75px] ">
                       <div className=' flex items-center gap-[30px] ml-[37px] mb-[0]! mr-[137px]'>
                       <div className="item1">
                                <h2 className='text-[18px]! text-black font-medium! mb-[0]!'>Email me at</h2>

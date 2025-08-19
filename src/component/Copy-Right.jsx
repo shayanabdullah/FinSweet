@@ -14,8 +14,8 @@ const CopyRight = () => {
                             </h2>
                         </div>
                     </Col>
-                    <Col lg={{ span: 5, offset: 4 }}>
-                        <div className="menu">
+                    <Col lg={{ span: 5, offset: 4 }} className='p-[0]!'>
+                        <div className="menu p-[0]!">
                             <ul className='flex items-center gap-[2rem] pl-[45px]! copy-ul'>
                                 <li>
                                     <Link to="/" className='text-[16px]! font-semibold text-[#282938]!'>

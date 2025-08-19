@@ -3,8 +3,8 @@
     left: 160px;
    
 }
-.icon-btn-2:hover .icon{
-    right: 200px;
+.img-main .icon-btn-2:hover .icon{
+    right: -30%;
    
 }
 .icon{
@@ -42,10 +42,10 @@ overflow: hidden;
 
 .img-2 .overlay{
     width: 100%;
-    height: 0;
+    height: 100%;
     position: absolute;
     background-image:linear-gradient(to top left, rgba(28, 30, 83, 0.94),rgba(28, 30, 83, 0.42) ); 
-    top: 0;
+top: -100%;
     left: 0;
     transition: 0.5s;
 }
@@ -70,7 +70,7 @@ left: 0;
 
 
 .img-2:hover .overlay{
-height: 100%;
+top: 0;
 }
 
 .img-3:hover .overlay{
@@ -79,11 +79,98 @@ top: 0;
 
 
 
-.overlay-btn:hover .icon{
-right: 110px;
-}
 
 
 .img-2 .overlay-btn:hover .icon{
 left: 195px;
+}
+
+
+.overlay{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.overlay-btn{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+@media (max-width:575px) {
+
+.img-main .overlay{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+padding: 20px 40px;
+}
+
+.img-main .icon-btn-2 .icon{
+    right: -30%;
+   
+}
+
+.icon-btn .icon{
+    left: 300px;
+   
+}
+.icon-btn:hover .icon{
+    left: 300px !important;    
+   
+}
+
+.project_row{
+    display: flex;
+    gap: 20px;
+}
+
+
+.c-text{
+    font-size: 1rem !important;
+}
+.project-heading{
+    text-align: center;
+}
+
+.icon-btn{
+    text-align: center;
+}
+
+}
+
+
+@media (min-width:576px) and (max-width:991px) {
+    .img-main .overlay{
+    padding: 20px 20px;
+    }
+    .project-heading{
+        text-align: center;
+    }
+
+    .icon-btn{
+        text-align: center;
+    }
+
+    .icon-btn .icon{
+        left: 400px;
+       
+    }
+    .icon-btn:hover .icon{
+        left: 400px !important;    
+       
+    }
+
+    .project_row{
+        display: flex;
+        gap: 20px;
+    }
+
+    .img-main .icon-btn-2 .icon{
+        right: -30%;
+       
+    }
 }

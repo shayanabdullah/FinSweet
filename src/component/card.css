@@ -1,0 +1,9 @@
+@media (max-width:575px) {
+    /*   pb-[3rem] pl-[3rem] pr-[2rem] */
+.card{
+    padding-bottom: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+}
