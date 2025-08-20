@@ -223,6 +223,14 @@ padding-left:0 !important ;
         .faq-text .icon-btn .icon{
             left: 380px;
         }
+
+        header, nav {
+          max-width: 100%;
+          box-sizing: border-box;
+          padding-left: 1rem;   
+          padding-right: 1rem; 
+        }
+
         .text-box{
     padding-left: 10px;
          padding-bottom: 40px;
