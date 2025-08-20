@@ -30,7 +30,7 @@ const Footer = () => {
                       </div>
                      </div>
                     </Col>
-                    <Col lg={{span:6, offset:1}}>
+                    <Col lg={{span:6, offset:1}} className='p-[0]!'>
                     <div className="text-box">
                         <h2 className='text-[48px]! font-semibold! text-white'>Lets Talk!</h2>
                         <p className='text-[16px]! text-[#F4F6FC] font-regular! opacity-75! pt-[18px] pb-[28px] mb-[0]! leading-[26px]'><span className=' lg:w-[320px] block'>We are always open to discuss your project, </span>improve your online presence and help with your <span className='lg:w-[320px] block'> UX/UI design challenges.</span></p>

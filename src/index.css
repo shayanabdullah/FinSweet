@@ -81,6 +81,8 @@ li a{
             padding-right:20px;
         }
 
+        
+
         .work-text{
             text-align: center;
         }
@@ -169,10 +171,13 @@ li a{
 
 .copy{
     text-align: center;
-    padding-bottom: 30px;
 }
  section{
     width: 100vw;
+ }
+ .copy-ul{
+justify-content: center;
+gap: 20px;
  }
     }
 
@@ -186,4 +191,14 @@ li a{
             left: 0;
         }
 
+        .banner-btn{
+          text-align: center;
+        }
+
  }
+
+
+ .row {
+   --bs-gutter-x: 0 !important; 
+
+}

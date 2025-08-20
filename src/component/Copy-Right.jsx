@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 
 const CopyRight = () => {
     return (
-        <footer className='py-[32px] flex items-center'>
+        <div className='py-[32px] flex items-center'>
             <Container>
                 <Row className='items-center!'>
-                    <Col lg={3}>
+                    <Col lg={3} className='p-[0px]!'>
                         <div className="copy">
                             <h2 className='text-[16px]! font-medium! text-[#282938]'>
                                 Copyright 2025, Finsweet.com
@@ -16,7 +16,7 @@ const CopyRight = () => {
                     </Col>
                     <Col lg={{ span: 5, offset: 4 }} className='p-[0]!'>
                         <div className="menu p-[0]!">
-                            <ul className='flex items-center flex-wrap gap-[2rem] lg:pl-[45px]! copy-ul'>
+                            <ul className='flex items-center flex-wrap lg:gap-[2rem] lg:pl-[45px]! copy-ul'>
                                 <li>
                                     <Link to="/" className='text-[16px]! font-semibold text-[#282938]!'>
                                         Home
@@ -58,7 +58,7 @@ const CopyRight = () => {
                     </Col>
                 </Row>
             </Container>
-        </footer>
+        </div>
     )
 }
 

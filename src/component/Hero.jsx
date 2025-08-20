@@ -16,7 +16,7 @@ const Hero = () => {
                 <h1 className='lg:text-[54px]!  font-bold! text-white leading-[74px]  lg:text-left!  heading'>Building stellar websites for early startups</h1>
                 <p className='lg:text-[16px] text-[14px] font-regular text-[#ffffffb3] lg:pt-[24px]  pt-[1rem] lg:pb-[48px] lg:w-[482px]! lg:text-left! '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                 </div>
-                <div className="lg:text-left! ">
+                <div className="lg:text-left! banner-btn">
               <Link to='/work'>
               <Buttons text='View our work'/>
               </Link>
