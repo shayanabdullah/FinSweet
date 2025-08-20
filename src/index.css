@@ -218,7 +218,7 @@ padding-left:0 !important ;
 }
     }
 
- @media (min-width:320px) and  (max-width:575px) {
+ @media (min-width:300px) and  (max-width:575px) {
         .faq-text .icon-btn .icon{
             left: 380px;
         }
