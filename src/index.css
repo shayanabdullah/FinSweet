@@ -167,6 +167,23 @@ li a{
 .text-box{
   padding: 10px 38px;
   padding-bottom: 40px;
+
+}
+
+
+.mf{
+  display: flex;
+align-items: center;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.logos{
+gap: 20px;
+flex-wrap: wrap;
+}
+.text-box h2{
+  font-size: 32px;
 }
 
 .copy{
@@ -179,11 +196,34 @@ li a{
 justify-content: center;
 gap: 20px;
  }
+
+
+ .footer .box{
+  padding: 14px;
+}
+.item1 h2{
+  font-size: 18px !important;
+}
+.item1 p{
+  font-size: 16px !important;
+}
+.item2 p{
+  font-size: 16px !important;
+}
+
+.item2 h2{
+  font-size: 18px !important;
+}
     }
 
  @media (min-width:320px) and  (max-width:575px) {
         .faq-text .icon-btn .icon{
             left: 380px;
+        }
+        .text-box{
+    padding-left: 10px;
+         padding-bottom: 40px;
+        padding-right: 0;
         }
        
         .contact-box .overlay{
@@ -194,7 +234,46 @@ gap: 20px;
         .banner-btn{
           text-align: center;
         }
+        .footer .box{
+          padding: 12px;
+        }
+        .item1 h2{
+          font-size: 16px !important;
+        }
+        .item1 p{
+          font-size: 14px !important;
+        }
+        .item2 p{
+          font-size: 14px !important;
+        }
+        
+        .item2 h2{
+          font-size: 16px !important;
+        }
+ }
+ @media (min-width:320px) and  (max-width:450px) {
+  .text-box{
+    padding-left: 10px;
+         padding-bottom: 10px;
+        padding-right: 0;
+        }   
+.footer .box{
+  padding: 10px;
+}
 
+.item1 h2{
+  font-size: 16px !important;
+}
+.item1 p{
+  font-size: 14px !important;
+}
+.item2 p{
+  font-size: 14px !important;
+}
+
+.item2 h2{
+  font-size: 16px !important;
+}
  }
 
 

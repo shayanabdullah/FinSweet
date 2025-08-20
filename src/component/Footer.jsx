@@ -8,7 +8,7 @@ import { FaInstagram } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <section className='lg:py-[96px] bg-[#1C1E53] relative py-[3rem]'>
+        <section className='lg:py-[96px] bg-[#1C1E53] relative py-[3rem] footer'>
              <Container>
                 <Row> 
                     <Col lg={5} className='pl-[0]!'>
@@ -17,31 +17,33 @@ const Footer = () => {
                         <p className='text-[16px]! text-white font-medium! pt-[24px]! lg:pb-[86px] lg:w-[340px]'>We are always open to discuss your project and improve your online presence.</p>
                      </div>
 
-                     <div className="box bg-[#FCD980] py-[20px] absolute bottom-0  lg:left-[75px] ">
-                      <div className=' flex items-center gap-[30px] ml-[37px] mb-[0]! mr-[137px]'>
+                     <div className="box bg-[#FCD980] lg:py-[20px] absolute bottom-0  lg:left-[75px] ">
+                      <div className=' flex items-center lg:gap-[30px] lg:ml-[37px] mb-[0]! lg:mr-[137px]'>
                       <div className="item1">
-                               <h2 className='text-[18px]! text-black font-medium! mb-[0]!'>Email me at</h2>
-                               <p className='text-[16px]! text-black font-regular! opacity-[0.8] pt-[4px] mb-[0]!'>contact@website.com</p>
+                               <h2 className='lg:text-[18px]! text-black font-medium! mb-[0]!'>Email me at</h2>
+                               <p className='lg:text-[16px]! text-black font-regular! opacity-[0.8] pt-[4px] mb-[0]!'>contact@website.com</p>
                         </div>
                         <div className="item2">
-                               <h2 className='text-[18px]! text-black font-medium! mb-[0]!'>Call us</h2>
-                               <p className='text-[16px]! text-black font-regular! opacity-[0.8] pt-[4px] mb-[0]!'>0927 6277 28525</p>
+                               <h2 className='lg:text-[18px]! text-black font-medium! mb-[0]!'>Call us</h2>
+                               <p className='lg:text-[16px]! text-black font-regular! opacity-[0.8] pt-[4px] mb-[0]!'>0927 6277 28525</p>
                         </div>
                       </div>
                      </div>
                     </Col>
                     <Col lg={{span:6, offset:1}} className='p-[0]!'>
-                    <div className="text-box">
-                        <h2 className='text-[48px]! font-semibold! text-white'>Lets Talk!</h2>
-                        <p className='text-[16px]! text-[#F4F6FC] font-regular! opacity-75! pt-[18px] pb-[28px] mb-[0]! leading-[26px]'><span className=' lg:w-[320px] block'>We are always open to discuss your project, </span>improve your online presence and help with your <span className='lg:w-[320px] block'> UX/UI design challenges.</span></p>
+                <div className="mf">
+                <div className="text-box">
+                        <h2 className='lg:text-[48px]! font-semibold! text-white'>Lets Talk!</h2>
+                        <p className='text-[16px]! text-[#F4F6FC] font-regular! opacity-75! pt-lg:[18px] lg:pb-[28px] mb-[0]! lg:leading-[26px]'><span className=' lg:w-[320px] block'>We are always open to discuss your project, </span>improve your online presence and help with your <span className='lg:w-[320px] block'> UX/UI design challenges.</span></p>
                     </div>
 
-                    <div className="logos flex items-center gap-[27px] text-white cursor-pointer">
+                    <div className="logos flex items-center lg:gap-[27px] text-white cursor-pointer">
                      <FaFacebook/>
                      <FaTwitter/>
                      <FaInstagram/>
                      <FaLinkedin/>
                     </div>
+                </div>
                     </Col>
 
 
