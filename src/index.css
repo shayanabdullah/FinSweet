@@ -196,6 +196,7 @@ flex-wrap: wrap;
 justify-content: center;
 gap: 20px;
 flex-wrap: wrap;
+padding-left:0 !important ;
  }
 
 
