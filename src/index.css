@@ -220,7 +220,13 @@ padding-left:0 !important ;
     }
 
  @media (min-width:300px) and  (max-width:575px) {
-        .faq-text .icon-btn .icon{
+  section{
+    padding-left: 10px;
+    padding-right: 10px;
+  }      
+  
+  
+  .faq-text .icon-btn .icon{
             left: 380px;
         }
 

@@ -12,7 +12,7 @@ const Blog = () => {
           <h2 className='text-[48px]! font-semibold! text-[#282938] pb-[64px]'>Our blog</h2>
         </div>
         <div className="cards">
-          <Row>
+          <Row className='lg:gap-[0px]'>
             <Col lg={4} md={6} sm={6}>
               <BlogCard src={BlogCard1} />
             </Col>
